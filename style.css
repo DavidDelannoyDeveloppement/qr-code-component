@@ -1,0 +1,114 @@
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background: rgba(213,225,239,255);
+    margin : 0px;
+    
+    
+    
+
+}
+
+
+div.panneau {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: auto;
+    margin-top: 150px;
+    margin-bottom: 230px;
+    border-radius: 20px;
+}
+
+img.img-qr {
+    width: 270px;
+    height: 270px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+p1{
+    color: rgb(16, 7, 46);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    margin: 5px 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+p2{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    color: rgba(128, 128, 128, 0.774);
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+
+
+
+
+div.attribution {
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/*Responsive design*/
+
+@media only screen and (max-width: 767px) {
+
+    div.cadre {
+        
+        width: 100%;
+        margin : 0;
+        margin-bottom: 50px;
+        
+    }
+
+    div.panneau {
+        
+        width: 320px;
+        height: auto;
+        margin: 100px 0px;
+        
+    }
+
+    img.img-qr {
+        width: 290px;
+        height: 290px;
+        margin: 15px;
+
+    }
+
+    p1{
+        font-size: 20px;
+        margin: 10px 25px;
+    }
+    
+    p2{
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 40px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+    
